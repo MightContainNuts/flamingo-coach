@@ -18,6 +18,7 @@ remote_theme: dieghernan/chulapa
 # Default values are explained
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
 title                   :     Flamingo Coach
+repository              :     MightContainNuts/flamingo-coach
 title_separator         :     #default [" | "]
 subtitle                :     #default [your-repository-tagline]
 description             :     Welcome to Flamingo Coaching, your destination for holistic life coaching, yoga, and lifestyle tips. Our mission is to inspire and support you on your journey to wellness, embracing the beauty of life's vibrant chapters. Explore our portfolio, blog, and informational resources to discover personalized coaching, mindful yoga practices, and empowering lifestyle advice. Whether you're seeking guidance on holistic health, looking for cancer support, or simply wanting to enrich your life, Flamingo Coaching is here to help you thrive with grace and vitality.
