@@ -11,7 +11,6 @@ on:
   push:
     branches:
       - main
-      - staging
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -59,18 +58,13 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          # Use different branches for production and staging
-          branch: ${{ github.ref == 'refs/heads/main' && 'gh-pages' || 'gh-pages-staging' }}
-
-    environment:
-      name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
-      url: ${{ steps.deployment.outputs.page_url }}
