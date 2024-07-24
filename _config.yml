@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Flamingo Coaching'
+title: "Flamingo Coaching"
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Embrace Life's Vibrance with Holistic Wellness!'
+slogan: "Embrace Life's Vibrance with Holistic Wellness!"
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'At Flamingo Coaching, we believe in the power of holistic wellness to transform lives. Our comprehensive approach combines life coaching, yoga, nutritional guidance, and specialized cancer support to help you feel your best, inside and out. Whether you're seeking balance, strength, or a fresh perspective, we're here to support you on your journey to vibrant living. Embrace the beauty of a balanced life with Flamingo Coaching, where your well-being is our priority.'
+description: "At Flamingo Coaching, we believe in the power of holistic wellness to transform lives. Our comprehensive approach combines life coaching, yoga, nutritional guidance, and specialized cancer support to help you feel your best, inside and out. Whether you're seeking balance, strength, or a fresh perspective, we're here to support you on your journey to vibrant living. Embrace the beauty of a balanced life with Flamingo Coaching, where your well-being is our priority."
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
